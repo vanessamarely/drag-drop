@@ -1,0 +1,46 @@
+
+:root {
+    font-family: sans-serif;
+}
+
+.header {
+    width: 100%;
+}
+
+.header__title {
+    color: coral;
+    font-size: 2em;
+    text-align: center;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 80vh;
+    padding: 1em;
+    width: 100%;
+}
+
+.task-container {
+    border: 1px solid coral;
+    border-radius: 3%;
+    padding: 1em;
+    width: 45%;
+    height: 100%;
+}
+
+.task-container .task {
+    background-color: lightsalmon;
+    margin: 1% 0;
+    padding: 1%;
+    text-align: center;
+}
+
+.task-container__title {
+
+}
+
+    
+   
+
